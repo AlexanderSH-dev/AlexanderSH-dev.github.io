@@ -48,6 +48,7 @@ $(function () {
         form.reset();
         $('.modal__form-group').removeClass('success');
         $('.modal__form-group').removeClass('error');
+        $('html, body').css('overflow', '');
         errorMessage.innerText = '';
     }
     // Появление окна "Спасибо"
