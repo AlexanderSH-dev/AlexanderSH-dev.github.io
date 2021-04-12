@@ -27,6 +27,7 @@ $(function () {
             if ($(event.target).closest(".header, .modal , .section-rent__btn").length) return;
             $("body").removeClass("overlay");
             $('.modal').removeClass('active');
+            formReset();
             $('html, body').css('overflow', '');
             event.stopPropagation();
         }
